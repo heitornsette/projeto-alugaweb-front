@@ -76,8 +76,26 @@
     <div class="flex px-15">
         <!-- Filtros -->
         <div class="w-[350px]">
-            <h5 class="mb-10">Filtros</h5>
+            <div class="flex gap-2 items-center">
+                <box-icon name='slider-alt' class="fill-cinza h-5"></box-icon>
+                <h5 class="my-10 text-cinza">Filtros</h5>
+            </div>
+            
             <div class="border border-stone-300 rounded-2xl">
+
+                <div class="px-7 py-[34px] border-b border-stone-300">
+                    <p class="text-cinza font-semibold mb-3">Localização</p>
+                    <div class="bg-black/5 flex items-center gap-2 h-13 rounded-lg border border-stone-300 mb-[14px]">
+                        <box-icon name='map' type='solid' class="fill-cinza2 h-5 ml-3"></box-icon>
+                        <input type="text" placeholder="Digite o bairro, rua ou cidade" class="focus:outline-none">
+                    </div>
+                    
+                    <div class="bg-laranja text-white flex items-center font-semibold rounded-3xl text-xs w-[134px]">
+                        <p class="p-[10px]">Fortaleza - CE</p>
+                        <box-icon name='x' class="fill-white h-4"></box-icon>
+                    </div>
+                </div>
+        
                 
             </div>
         </div>
@@ -100,8 +118,7 @@
                         <p class="text-laranja font-semibold">Mais relevantes</p>
                     </div>
                     <div class="flex flex-col">
-                        <box-icon name='chevron-up' class="fill-cinza2 h-4"></box-icon>
-                        <box-icon name='chevron-down' class="fill-cinza2 h-4"></box-icon>
+                        <box-icon name='expand-vertical' class="fill-cinza h-4"></box-icon>
                     </div>
                 </div>
             </div>
