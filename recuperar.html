@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recuperar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+
+        *{
+            font-family: "Inter", sans-serif;
+        }
+
+        @theme {
+            --color-laranja: #E04300;
+        }
+    </style>
+</head>
+
+<body class="flex justify-center items-center h-screen p-4">
+    <form class="w-[400px] border border-black/15 rounded-xl p-4 ">
+    
+    <div class="">
+        <h3 class="font-semibold border-b border-stone-400 text-center p-1 mb-2">RECUPERAR SENHA</h3>
+        <p class=" mb-6 text-stone-700 text-balance text-center">para recuperar sua senha digite seu email para que possamos enviar seu codigo de recuperação</p>
+    </div>
+
+        <label for="email" class=" text-xs uppercase font-bold text-black block mb-3">Email</label>
+
+        <input id="email" type="text" placeholder="digite seu Email"
+            class="w-full h-10 mb-4 border rounded border-black/15 pl-3 focus:outline focus:border-black focus:outline-offset-1 ">
+
+    
+
+            <button class=" w-full h-10 bg-laranja rounded text-white hover:bg-orange-800 hover:border hover:border-gray-800 hover:bg-white hover:text-laranja cursor-pointer text-xl mb-4 duration-200">enviar</button>
+
+    
+    </form>
+
+    
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
