@@ -122,22 +122,26 @@
                 <div class="px-7 py-[34px] border-b border-stone-300 font-semibold">
                     <h4 class="mb-2 text-cinza">Quantidade de quartos</h4>
                     <div class="flex gap-3">
-                        <div
-                            class="w-[72px] h-[54px] bg-orange-700 rounded-lg flex items-center justify-center text-white">
+                        <button
+                            onclick="filtrarQuartos(1)"
+                            class="w-[72px] h-[54px] bg-orange-700 rounded-lg flex items-center justify-center text-white cursor-pointer">
                             +1
-                        </div>
-                        <div
-                            class="w-[72px] h-[54px] bg-laranja/20 rounded-lg flex items-center justify-center text-orange-500">
+                        </button>
+                        <button
+                            onclick="filtrarQuartos(2)"
+                            class="w-[72px] h-[54px] bg-laranja/20 rounded-lg flex items-center justify-center text-orange-500 cursor-pointer">
                             +2
-                        </div>
-                        <div
-                            class="w-[72px] h-[54px] bg-laranja/20 rounded-lg flex items-center justify-center text-orange-500">
+                        </button>
+                        <button
+                            onclick="filtrarQuartos(3)"
+                            class="w-[72px] h-[54px] bg-laranja/20 rounded-lg flex items-center justify-center text-orange-500 cursor-pointer">
                             +3
-                        </div>
-                        <div
-                            class="w-[72px] h-[54px] bg-laranja/20 rounded-lg flex items-center justify-center text-orange-500">
+                        </button>
+                        <button
+                            onclick="filtrarQuartos(4)"
+                            class="w-[72px] h-[54px] bg-laranja/20 rounded-lg flex items-center justify-center text-orange-500 cursor-pointer">
                             +4
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div class="px-7 py-[34px] border-b border-stone-300 font-semibold">
@@ -209,174 +213,7 @@
                 </div>
             </div>
 
-            <!-- CARD 1 -->
-            <div class="border border-gray-300 rounded-2xl flex mb-2 flex-col md:flex-row">
-                <img src="./images/image2.png" alt="imagemCasa" class="">
-                <div class="p-4 flex-1">
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#595959]">Rua Eduardo Bezerra, 1182</h4>
-                            <h4 class="font-semibold text-[#595959]">São Joao do Taouape, Fortaleza/CE</h4>
-                        </div>
-                        <div class="bg-[#E04300]/20 w-14 h-14 rounded-lg flex items-center justify-center">
-                            <box-icon name="heart" class="fill-laranja"></box-icon>
-                        </div>
-                    </div>
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#959595]">Casa pra alugar, 500m²</h4>
-                            <h4 class="font-semibold text-[#959595]">Excelente casa à venda ou Locação</h4>
-                        </div>
-                        <!-- escondido no mobile first -->
-                        <h1 class="hidden md:block text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                    </div>
-                    <div class="flex justify-between items-center">
-                        <div class="flex gap-5">
-                            <h5 class="text-[#959595] text-sm">500m²</h5>
-                            <h5 class="text-[#959595] text-sm">3 Quartos</h5>
-                            <h5 class="text-[#959595] text-sm">5 Garagem</h5>
-                        </div>
-                        <div
-                            class="hidden md:flex w-24 h-12 bg-[#E04300] text-white rounded-lg justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                        <!-- existe no mobile! -->
-                        <h1 class="md:hidden text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                        <div
-                            class="md:hidden w-24 h-12 bg-[#E04300] text-white rounded-lg flex justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- CARD 2 -->
-            <div class="border border-gray-300 rounded-2xl flex mb-2 flex-col md:flex-row">
-                <img src="./images/image2.png" alt="imagemCasa" class="">
-                <div class="p-4 flex-1">
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#595959]">Rua Eduardo Bezerra, 1182</h4>
-                            <h4 class="font-semibold text-[#595959]">São Joao do Taouape, Fortaleza/CE</h4>
-                        </div>
-                        <div class="bg-[#E04300]/20 w-14 h-14 rounded-lg flex items-center justify-center">
-                            <box-icon name="heart" class="fill-laranja"></box-icon>
-                        </div>
-                    </div>
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#959595]">Casa pra alugar, 500m²</h4>
-                            <h4 class="font-semibold text-[#959595]">Excelente casa à venda ou Locação</h4>
-                        </div>
-                        <!-- escondido no mobile first -->
-                        <h1 class="hidden md:block text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                    </div>
-                    <div class="flex justify-between items-center">
-                        <div class="flex gap-5">
-                            <h5 class="text-[#959595] text-sm">500m²</h5>
-                            <h5 class="text-[#959595] text-sm">3 Quartos</h5>
-                            <h5 class="text-[#959595] text-sm">5 Garagem</h5>
-                        </div>
-                        <div
-                            class="hidden md:flex w-24 h-12 bg-[#E04300] text-white rounded-lg justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                        <!-- existe no mobile! -->
-                        <h1 class="md:hidden text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                        <div
-                            class="md:hidden w-24 h-12 bg-[#E04300] text-white rounded-lg flex justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- CARD 3 -->
-            <div class="border border-gray-300 rounded-2xl flex mb-2 flex-col md:flex-row">
-                <img src="./images/image2.png" alt="imagemCasa" class="">
-                <div class="p-4 flex-1">
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#595959]">Rua Eduardo Bezerra, 1182</h4>
-                            <h4 class="font-semibold text-[#595959]">São Joao do Taouape, Fortaleza/CE</h4>
-                        </div>
-                        <div class="bg-[#E04300]/20 w-14 h-14 rounded-lg flex items-center justify-center">
-                            <box-icon name="heart" class="fill-laranja"></box-icon>
-                        </div>
-                    </div>
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#959595]">Casa pra alugar, 500m²</h4>
-                            <h4 class="font-semibold text-[#959595]">Excelente casa à venda ou Locação</h4>
-                        </div>
-                        <!-- escondido no mobile first -->
-                        <h1 class="hidden md:block text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                    </div>
-                    <div class="flex justify-between items-center">
-                        <div class="flex gap-5">
-                            <h5 class="text-[#959595] text-sm">500m²</h5>
-                            <h5 class="text-[#959595] text-sm">3 Quartos</h5>
-                            <h5 class="text-[#959595] text-sm">5 Garagem</h5>
-                        </div>
-                        <div
-                            class="hidden md:flex w-24 h-12 bg-[#E04300] text-white rounded-lg justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                        <!-- existe no mobile! -->
-                        <h1 class="md:hidden text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                        <div
-                            class="md:hidden w-24 h-12 bg-[#E04300] text-white rounded-lg flex justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- CARD 4 -->
-            <div class="border border-gray-300 rounded-2xl flex mb-2 flex-col md:flex-row">
-                <img src="./images/image2.png" alt="imagemCasa" class="">
-                <div class="p-4 flex-1">
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#595959]">Rua Eduardo Bezerra, 1182</h4>
-                            <h4 class="font-semibold text-[#595959]">São Joao do Taouape, Fortaleza/CE</h4>
-                        </div>
-                        <div class="bg-[#E04300]/20 w-14 h-14 rounded-lg flex items-center justify-center">
-                            <box-icon name="heart" class="fill-laranja"></box-icon>
-                        </div>
-                    </div>
-                    <div class="flex justify-between mb-8">
-                        <div>
-                            <h4 class="font-semibold text-[#959595]">Casa pra alugar, 500m²</h4>
-                            <h4 class="font-semibold text-[#959595]">Excelente casa à venda ou Locação</h4>
-                        </div>
-                        <!-- escondido no mobile first -->
-                        <h1 class="hidden md:block text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                    </div>
-                    <div class="flex justify-between items-center">
-                        <div class="flex gap-5">
-                            <h5 class="text-[#959595] text-sm">500m²</h5>
-                            <h5 class="text-[#959595] text-sm">3 Quartos</h5>
-                            <h5 class="text-[#959595] text-sm">5 Garagem</h5>
-                        </div>
-                        <div
-                            class="hidden md:flex w-24 h-12 bg-[#E04300] text-white rounded-lg justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                    <div class="flex justify-between items-center mt-5">
-                        <!-- existe no mobile! -->
-                        <h1 class="md:hidden text-[#E04300] font-bold text-2xl">R$ 5.000</h1>
-                        <div
-                            class="md:hidden w-24 h-12 bg-[#E04300] text-white rounded-lg flex justify-center items-center">
-                            Contatar
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="cards"></div>
         </div>
     </div>
 
@@ -393,6 +230,7 @@
     </footer>
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

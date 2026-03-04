@@ -1,0 +1,60 @@
+{
+    "imoveis": [
+        {
+            "id": 1,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI7qpM9P3x3tmRUFYJ21fY6mEQ3eb4BdMNlg&s",
+            "endereco": "Rua Eduardo Bezerra",
+            "numero": "80",
+            "complemento": "bloco B",
+            "bairro": "Antonio Bezerra",
+            "cidade": "Fortaleza",
+            "estado": "Ceará",
+            "cep": "60000000",
+            "descricao": "Casa pra alugar, 500m², Excelente casa à venda ou Locação",
+            "tipo": "Casa",
+            "modalidade": "Venda",
+            "metragem": 500,
+            "quartos": 3,
+            "garagens": 2,
+            "banheiros": 4,
+            "valor": 350000,
+            "usuario": {
+                "id": 1,
+                "nome": "chico",
+                "telefone": "(85) 90000-0000"
+            }
+        },
+        {
+            "id": 2,
+            "imagem": "https://cdn.imoview.com.br/alveselima/Imoveis/249/varanda-gourmet-01.jpg?1613999463",
+            "endereco": "Av beira mar",
+            "numero": "20",
+            "complemento": "",
+            "bairro": "Meireles",
+            "cidade": "Fortaleza",
+            "estado": "Ceará",
+            "cep": "60000000",
+            "descricao": "Apartamento pra alugar, 200m², Venha ver!!!",
+            "tipo": "Apartamento",
+            "modalidade": "Aluguel",
+            "metragem": 200,
+            "quartos": 4,
+            "garagens": 3,
+            "banheiros": 3,
+            "valor": 6000,
+            "usuario": {
+                "id": 1,
+                "nome": "chico",
+                "telefone": "(85) 90000-0000"
+            }
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "chico",
+            "email": "chico@gmail.com",
+            "senha": "123456"
+        }
+    ]
+}
